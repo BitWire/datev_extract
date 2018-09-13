@@ -1,5 +1,6 @@
 # datev_extract
 This npm package is a simple Extractor for Salary PDFs from the DateV platform arbeitnehmeronline.de
+It uses puppeteer for downloading the pdf's and Readline-sync for getting the user input from the CLI.
 
 ## Setup
 
