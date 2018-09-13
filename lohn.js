@@ -36,8 +36,8 @@ async function run() {
   await delay(5000);
   await page.waitForSelector('#navSTARTHEADLINEDOCS > a');
   await page.click('#navSTARTHEADLINEDOCS > a');
-  await page.waitForSelector('#dijit__TemplatedMixin_19 > table > tbody > tr > td:nth-child(2) > div.analysisCaption');
-  await page.click('#dijit__TemplatedMixin_19 > table > tbody > tr > td:nth-child(1) > input[type="checkbox"]');
+  await page.waitForSelector('.analysisGrid table > tbody > tr > td:nth-child(2) > div.analysisCaption');
+  await page.click('.analysisGrid table > tbody > tr > td:nth-child(1) > input[type="checkbox"]');
   await page.click("#btnDownloadZip");
   await delay(2000);
   await page.click('#top > div.infobar > ul > li:nth-child(2) > a');
