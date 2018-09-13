@@ -21,7 +21,7 @@ async function run() {
   const page = await browser.newPage()
   const CREDS = require('./cred');
   await page.setViewport({ width: 1920, height: 1024 });
-  await page.goto('http://www.datev.de/ano/');
+  await page.goto('https://www.datev.de/ano/');
   await page.click('#loginContainer > div > ul > li:nth-child(1) > a > div > div.media-body');
   await page.waitForSelector('#username')
   await page.click('#username');
