@@ -1,0 +1,19 @@
+{
+  "name": "datev_extract",
+  "version": "1.0.0",
+  "description": "Extractor for Salary PDFs from the DateV platform arbeitnehmeronline.de",
+  "main": "lohn.js",
+  "author": "Thomas Schmidt",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThomasSchmidtGF/datev_extract.git"
+  },
+  "dependencies": {
+    "puppeteer": "^1.7.0",
+    "readline-sync": "^1.4.9"
+  }
+}
