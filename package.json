@@ -6,14 +6,21 @@
   "author": "Thomas Schmidt",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "check-node-version --package"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ThomasSchmidtGF/datev_extract.git"
   },
+  "engines": {
+    "node": ">=7.6.0"
+  },
   "dependencies": {
     "puppeteer": "^1.7.0",
     "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
+    "check-node-version": "^3.2.0"
   }
 }
