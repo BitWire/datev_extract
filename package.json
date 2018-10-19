@@ -17,7 +17,7 @@
     "node": ">=7.6.0"
   },
   "dependencies": {
-    "puppeteer": "^1.7.0",
+    "puppeteer": "^1.9.0",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
